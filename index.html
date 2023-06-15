@@ -1,0 +1,48 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Are+You+Serious&family=Grandiflora+One&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  </head>
+
+  <body id="body">
+    <div id="header">
+      <h1>Sound Controlled Aliens</h1>
+      <h3>Note: Play different sounds like clapping, snapping, background noise, and toy sounds.</h3>
+    </div>
+      <center>
+        <div id="main">
+          <br>
+          <button class="btn btn-warning" onclick="startClassification()">START</button>
+          <h3 id="sound">I can hear - </h3>
+          <h3 id="accuracy">Accuracy - </h3>
+          <br>
+          <img width="300" height="300" id="alien1" src="aliens-01.png">
+          <img width="300" height="300" id="alien2" src="aliens-02.png">
+          <img width="300" height="300" id="alien3" src="aliens-03.png">
+          <img width="300" height="300" id="alien4" src="aliens-04.png">
+        </div>
+
+      </center>
+      <div id="footer">
+        <h2>Developed By - Evan</h2>
+      </div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
